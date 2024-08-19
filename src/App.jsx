@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Navbar from './components/Navbar';
 import Card from './components/Card';
-import Hero from './components/HEro';
+import Hero from './components/Hero';
 const App = () => {
   const [tracks, setTracks] = useState([]);
   const [isclicked,setClicked] = useState(false)
